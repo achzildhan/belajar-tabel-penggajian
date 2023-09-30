@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rekapan Gaji Karyawan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="main">    
+    <div class="header">
+        <h1>Rekapan Gaji Karyawan</h1>
+        <h2>PT. Cahaya Nusa Indonesia
+            <br>Jalan Soekarno No. 20, RT. 10/ RW. 01, Kel. Menteng Utara
+            <br>Kec. Menteng, Jakarta Pusat, DKI Jakarta, 11320
+        </h2>
+    </div>
+
+    <div class="container">
+        <table id="gajiTable">
+            <caption>Tabel Laporan Gaji Karyawan Periode September 2023</caption>
+            <thead>
+                <tr>
+                    <th rowspan="3" class="number">No</th>
+                    <th colspan="6">Data Karyawan</th>
+                    <th colspan="5">Pendapatan</th>
+                    <th colspan="4">Potongan</th>
+                    <th rowspan="3" class="nominal">Total Gaji Bersih</th>
+                </tr>
+                <tr class="doublerow">
+                    <th class="name">Nama</th>
+                    <th class="data">Status</th>
+                    <th class="data">Jabatan</th>
+                    <th class="data">Divisi</th>
+                    <th class="data">Golongan</th>
+                    <th class="data">No ID</th>
+                    <th class="nominal">Gaji Pokok</th>
+                    <th class="nominal">Uang Lembur</th>
+                    <th class="nominal">Tunjangan Jabatan</th>
+                    <th class="nominal">Tunjangan BPJS</th>
+                    <th class="nominal">Total Gaji Kotor</th>
+                    <th class="nominal">Iuran BPJS</th>
+                    <th class="nominal">Pinjaman</th>
+                    <th class="nominal">PPh 21</th>
+                    <th class="nominal">Total Potongan</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+    
+        <div id="totalPenggajianKaryawan"></div>
+    </div>
+    
+    <button onclick="printTabel()">Cetak Berkas</button>
+
+    <hr>
+
+    <div class="otherContainer">
+        <table id="reftable">
+            <caption>Tabel Referensi</caption>
+            <thead>
+                <tr>
+                    <th class="data">Golongan</th>
+                    <th class="nominal">Gaji Pokok</th>
+                    <th class="nominal">Uang Lembur</th>
+                    <th class="nominal">Tunjangan Jabatan</th>
+                    <th class="nominal">Tunjangan BPJS</th>
+                    <th class="nominal">Iuran BPJS</th>
+                    <th class="nominal">PPh 21 (15%)</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

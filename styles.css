@@ -1,0 +1,136 @@
+/* General Style */
+body {
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+}
+
+.header h1, h2 {
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #009879;
+}
+
+.main {
+    background: linear-gradient(
+        135deg,
+        #7BED9F,
+        #d3d3d3
+    );
+    padding: 1rem;
+}
+
+/* Style Tabel Gaji */
+
+.container {
+    margin: 30px 0px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 30px rgba(0,0,0,0.15);
+}
+
+caption {
+    color: #fffbfb;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 16px;
+    text-shadow: 2px 2px 2px #d3d3d3;
+}
+
+table, th, td {
+    border: 1px solid #dddddd;
+}
+
+/* Style header tabel gaji*/
+thead {
+    background-color: #009879;
+    color: #ffffff;
+}
+
+/* Style body tabel gaji */
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #fefefe;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: #f1efef;
+}
+
+/* Style sel tabel gaji */
+.header {
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.name {
+    width: 120px;
+}
+
+.number {
+    width: 20px;
+}
+
+.data {
+    width: 65px;
+}
+
+.nominal {
+    width: 95px;
+}
+
+td {
+    text-align: center;
+    font-size: 12px;
+}
+
+/* Style footing tabel gaji */
+tfoot tr {
+    font-weight: 700;
+    border: 1px solid #dddddd;
+    background-color: #009879;
+    color: white;
+}
+
+/* Style total gaji bersih karyawan */
+#totalPenggajianKaryawan {
+    color: #009879;
+    font-size: 16px;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px #ffffff;
+    margin-top: 15px;
+    float: right;
+}
+
+/* Style button print dokumen */
+button {
+    background-color: #009879;
+    padding: 5px 20px;
+    color: #ffffff;
+    font-weight: 600;
+    border: 1px solid #009879;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px #d3d3d3;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: white;
+    color: #009879;
+    border: #ffffff;
+    box-shadow: 0px 0px 10px 5px #7BED9F;
+}
+
+/* Style tabel referensi */
+.otherContainer {
+    margin: 30px 0px;
+}
+
+#reftable {
+    max-width: 800px;
+}
